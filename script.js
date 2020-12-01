@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
 
          // Show pilot and co-pilot names
          document.getElementById("pilotStatus").innerHTML = `Pilot ${pilotName.value} ready for launch`;
-         document.getElementById("copilotStatus").innerHTML = `Co-ilot ${copilotName.value} ready for launch`;
+         document.getElementById("copilotStatus").innerHTML = `Co-pilot ${copilotName.value} ready for launch`;
 
          // Change "ready" text and make red
          launchStatus.innerHTML = `Shuttle Not Ready for Launch`;
